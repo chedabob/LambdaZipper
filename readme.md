@@ -7,7 +7,7 @@ Updated for Python 3.7, and Amazon Linux 2 for functions created after June 11th
 ## Quick start
 `./build.sh` to create the docker image
  
- Edit `run.sh` with the package you need, then run `./run.sh`
+ Edit `run.sh` with the package you need, and if you're on Windows, give an absolute path to the working directory, then run `./run.sh`
 
 ### This project consists of two key components
 1. Docker environment mimicing AWS Lambda environment. If you are looking for an advanced Lambda environment replication, take a look at [lambci/docker-lambda](https://github.com/lambci/docker-lambda).
