@@ -1,0 +1,1 @@
+docker run --rm -v C:/Users/mattm/PycharmProjects/OpenCV-Benchmark/docker:/package lambdazipper opencv-python-headless
